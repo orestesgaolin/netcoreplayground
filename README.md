@@ -4,3 +4,4 @@
 
 Install [generator-aspnetcore-spa](https://www.npmjs.com/package/generator-aspnetcore-spa)
 > npm install -g yo generator-aspnetcore-spa
+
