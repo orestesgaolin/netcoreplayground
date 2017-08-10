@@ -20,3 +20,8 @@ and then
 Since this moment use:
 
 > dotnet watch run
+
+## Entity Framework Core
+Add Microsoft.EntityFrameworkCore.Tools.DotNet reference which enables
+
+>dotnet ef
