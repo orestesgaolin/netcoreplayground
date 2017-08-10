@@ -15,13 +15,15 @@ Install [generator-aspnetcore-spa](https://www.npmjs.com/package/generator-aspne
 
 and then
 
->dotnet restore
+> dotnet restore
 
 Since this moment use:
 
 > dotnet watch run
 
 ## Entity Framework Core
-Add Microsoft.EntityFrameworkCore.Tools.DotNet reference which enables
+Add `Microsoft.EntityFrameworkCore.Tools.DotNet` reference to .csproj which enables EF commands:
 
->dotnet ef
+> dotnet ef
+> dotnet add package Microsoft.EntityFrameworkCore.Design
+> dotnet ef migrations add InitialModel
