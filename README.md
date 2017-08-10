@@ -27,3 +27,4 @@ Add `Microsoft.EntityFrameworkCore.Tools.DotNet` reference to .csproj which enab
 > dotnet ef
 > dotnet add package Microsoft.EntityFrameworkCore.Design
 > dotnet ef migrations add InitialModel
+> dotnet ef migrations remove
