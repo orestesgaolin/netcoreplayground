@@ -3,9 +3,10 @@
 ## Commands used:
 
 Install [generator-aspnetcore-spa](https://www.npmjs.com/package/generator-aspnetcore-spa)
-> npm install -g yo generator-aspnetcore-spa
 
-## Add dotnet watch to *.csproj
+`npm install -g yo generator-aspnetcore-spa`
+
+Add dotnet watch to *.csproj
 
 ```
   <ItemGroup>
